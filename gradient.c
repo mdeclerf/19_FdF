@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   gradient.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mdeclerf <mdeclerf@student.s19.be>         +#+  +:+       +#+        */
+/*   By: mdeclerf <mdeclerf@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/28 12:02:28 by mdeclerf          #+#    #+#             */
-/*   Updated: 2021/07/28 13:34:24 by mdeclerf         ###   ########.fr       */
+/*   Updated: 2022/04/02 15:49:44 by mdeclerf         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,11 +76,19 @@ t_color	color_init(int current_z, t_window window, t_color storage)
 	float	copy;
 
 	a.R = 255;
-	a.G = 99;
-	a.B = 71;
-	b.R = 123;
-	b.G = 104;
-	b.B = 238;
+	a.G = 192;
+	a.B = 203;
+	b.R = 152;
+	b.G = 251;
+	b.B = 152;
+
+	// a.R = 255;
+	// a.G = 99;
+	// a.B = 71;
+	// b.R = 123;
+	// b.G = 104;
+	// b.B = 238;
+	
 	min = (float)(get_min(window, window.array));
 	max = (float)(get_max(window, window.array));
 	copy = percent(min, max, current_z);
