@@ -4,9 +4,13 @@ make
 ./fdf <path to map>
 
 ◦ Press b to decrease the height and i to increase it.
+
 ◦ Use the left and right arrows to move the drawing in the window
+
 ◦ Press Z, X or Y to perform rotations on the Z, X or Y axis respectively
+
 ◦ Press p to switch to a parallel projection and i to come back to the isometric one (the isometric one is the default)
+
 ◦ Press Esc to exit
 
 ![Screenshot](screenshots_Readme/s1.png)
@@ -14,6 +18,7 @@ make
 ![Screenshot](screenshots_Readme/s2.png)
 
 ![Screenshot](screenshots_Readme/s3.png)
+
 
 
 ![Screenshot](screenshots_Readme/s4.png)
